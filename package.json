@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lightxu/chatapp/issues"
   },
-  "homepage": "https://github.com/lightxu/chatapp#readme"
+  "homepage": "https://github.com/lightxu/chatapp#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
