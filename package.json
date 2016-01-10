@@ -1,0 +1,19 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Course project for Foundation of Software Engineering",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lightxu/chatapp.git"
+  },
+  "author": "Shicheng Xu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lightxu/chatapp/issues"
+  },
+  "homepage": "https://github.com/lightxu/chatapp#readme"
+}
