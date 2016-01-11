@@ -1,5 +1,16 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  #navbar
+    span#title=title
+    a.glyphicon.glyphicon-remove#leave(href='#')
+
+  .container
+    ul.list-group#messages
+
+    form
+      .form-group
+        input.form-control#message-input
+      button.btn.btn-default.btn-lg.btn-block#submit(type='submit') Submit
+
+  script(src="/javascripts/index.js")
